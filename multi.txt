@@ -1,0 +1,37 @@
+import java.util.Scanner;
+class Shape
+{
+  void display()
+   {
+  Scanner input=new Scanner(System.in);
+  System.out.println("the shape of the is ");
+  int i=input.nextInt;
+   }
+}
+class Rect extends Shape
+{
+  int area;
+  void area(int l,int b)
+  area=l*b
+  {
+ void display()
+  System.out.println("the area of the rectangle is"+area);
+  }
+}
+class Cube extends Rect
+{
+  void volume()
+ {
+  System.out.println("the volume of the rectangle");
+  }
+}
+class Test
+{
+  public static void main(String[]args)
+  {
+  Cube obj=new Cube();
+  obj.display();
+  obj.area();
+  obj.volume();
+  }
+}

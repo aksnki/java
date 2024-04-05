@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class bigest
+{
+public static void main(String args[])
+ {
+ int l,b,area;
+ Scanner input=new Scanner(System.in);
+ System.out.println("enter the height:");
+ l= input.nextInt();
+ System.out.println("enter the breadth:");
+ b= input.nextInt();
+ area=l*b;
+ System.out.println("the area is:"+area);
+
+}
+}

@@ -1,0 +1,20 @@
+class Rect
+ {
+ void area()
+ {
+ int l=6;
+ int b=8;
+ int area=l*b;
+System.out.println("the area is:"+area);
+}
+
+ }
+class RectMain
+{
+ public static void main(String []args)
+ {
+  Rect ar=new Rect();
+  ar.area();
+}
+}
+

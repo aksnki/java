@@ -1,0 +1,22 @@
+class Meth
+  {
+   void area(int l,int b)
+    {
+      int area=l*b;
+      System.out.println("the area is:"+c);
+    }
+ void area(int a,int c,int d)
+     {
+      int p=2*(a+c+d);
+     System.out.println("perimeter is:"+p);
+     }
+   }
+class Over
+  {
+   public static void main(String args[])
+   Meth.obj=new Meth();
+   obj.area(20,40);
+   obj.area(20,40,60);
+}
+}
+

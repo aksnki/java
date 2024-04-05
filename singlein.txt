@@ -1,0 +1,23 @@
+class Shape
+{
+  void display()
+  {
+   System.out.println("the shape of the rectangle");
+}
+}
+class Rect extends Shape
+{
+ void area()
+ {
+  System.out.println("the area of the rectangle");
+ }
+}
+class Test
+{
+public static void main(String[]args)
+{
+Rect obj=new Rect();
+obj.area();
+obj.display();
+}
+}

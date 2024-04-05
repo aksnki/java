@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Input
+  {
+   void area()
+    {
+  Scanner input= new Scanner(System.in);
+  System.out.println("enter the length:");
+  int l= input.nextInt();
+  System.out.println("enter the breadth:");
+  int b= input.nextInt();
+   int area=l*b;
+  }
+}
+class Area
+   {
+    public static void main(String args[])
+     {
+      Input a1= new Input();
+      System.out.println("area"+ al.area);
+     }
+   }
+
